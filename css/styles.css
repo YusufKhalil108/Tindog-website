@@ -1,0 +1,172 @@
+#title{
+    background-color: #EA99D5;
+    color: #fff;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+
+h1,h2,h3,h4,h5,h6{
+     font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+h2{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Heading */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+    
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* Title image */
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);  
+    position: absolute;
+    left: 30px;
+}
+.iphone-img{
+    text-align: center;
+    position: relative;
+    bottom:30px;
+    left: 30px;
+}
+
+/* Features section */
+#features{
+    padding: 3% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+
+.fas{
+    color: #B762C1;
+    margin-bottom: 1rem;
+}
+.f-box{
+    text-align: center;
+    padding:5%;
+}
+.fas:hover{
+    color:#8946A6;
+}
+p{
+    color: #8f8f8f;
+}
+/* Testimonials */
+#testimonials{
+    /* padding:3% 15%; */
+    text-align: center;
+    background-color:#B762C1 ;
+    color: #fff;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.carousel-item{
+    padding:3% 15%;
+}
+
+/* Press section */
+#press{
+    background-color: #B762C1;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 11%;
+    margin: 20px 50px 50px;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 150px;
+    text-align: center;
+}
+
+.pri-col{
+    padding: 3% 2%;
+}
+
+.body-ele{
+    padding-bottom: 40px;
+}
+
+@media (max-width:1199px){
+    #title{
+        text-align:center;
+    }
+    .title-img{
+        position:relative;
+    }
+    .iphone-img{
+        position: static;
+        transform: rotate(-25deg); 
+    }
+}
+
+/* Call to action */
+#cta{
+    padding:3% 15%;
+    background-color: #EA99D5;
+    text-align: center;
+    margin: 10px auto;
+}
+.cta-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.social-handle{
+    margin: 20px 10px;
+}
+
